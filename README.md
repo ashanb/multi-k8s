@@ -1,9 +1,11 @@
-# multi-docker
+# multi-k8's
 
-Testing Docker Multi Container Application life Cycle
+Testing Docker Multi Container Application life Cycle in Kubernetes
 
+Container Orchestration : Kubernetes
+Ingress Controller: https://github.com/kubernetes/ingress-nginx
 Client - React,
 Server - nginx,
 DB - postgres, redis,
-CI - Travis,
-AWS - Elasticbeanstack,
+CI - Travis
+Cloud Provider: Google, AWS
