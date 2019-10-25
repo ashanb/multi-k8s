@@ -19,7 +19,7 @@ spec:
       containers:
         - name: postgres
           image: postgres
-          ports: 
+          ports:
             - containerPort: 5432
           volumeMounts:
             - name: postgres-storage
